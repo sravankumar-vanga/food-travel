@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#a{
+    width:100%;
+    height:1000vh;
+    background-color: blue;
+}
+#b{
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0 100%);
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
