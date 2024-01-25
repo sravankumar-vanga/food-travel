@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#bdy{
+    background-image: linear-gradient(90deg,rgb(207, 7, 40),purple);
+    width: 100vw;
+    height: 10vh;
+}
+#outerdiv{
+    width: 70vw;
+    height: 60vh;
+    background-image: linear-gradient(70deg,brown,blue);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    top:30vh;
+    left:15vw;
+}
+#innerdiv{
+    width: 30vw;
+    height: 45vh;
+    background-color: rgba(35, 34, 34, 0.973);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px blacck;
+    position: absolute;
+    left:20vw;
+    top: 15vh;
+}
+#fom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 4vw;
+    letter-spacing: 20px;
+}
+#emaildiv,#passworddiv{
+    width: 20vw;
+    height: 5vh;
+    border: 0.5vh solid blue;
+    border-radius: 170px;
+    position: relative;
+}
+#emaildiv{
+    margin-top: 50px;
+}
+#email,#pas{
+    width: 80%;
+    height: 6vh;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 3vw;
+    padding-top: 0px;
+}
+#but{
+    width: 9vw;  
+    height: 4vh;
+    border: 3px solid green;
+    background-color: transparent;
+    color: cornflowerblue;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 0.5s;
+
+}
+#but:hover{
+    background-color: rgb(163, 146, 50);
+    color: white;
+    border-color: crimson;
+    transform: scale(1);
+}
+#visible{
+    border-radius: 100%;
+    width: 30px;
+    position: absolute;
+    border: 2px solid blue;
+    right: 0.45vw;
+    top: 0.45vh;
+    cursor: pointer;
+}
